@@ -8,11 +8,9 @@ background and foreground processes.
   * 'clr' - clears the screen
   * 'wait' - waits until all background processes are complete
   * 'hist' - prints up to the 10 most recently entered commands in your shell.
-    <br />
     * 'hist -set num' - set the size of the history buffer to num.
     * '! number' - repeats the command that is entered on turn 'number' (1 for the 1st command in history).
     * '! string' - repeats the command whose first two letter is same as 'string' (cl for clr).
-    <br />
   * 'exit' - terminates shell.
 * Pipe operator is supported. However, it doesn't support multiple pipes.
 
